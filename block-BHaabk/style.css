@@ -49,7 +49,7 @@ table {
 }
  .header-div
 {
-    background-color: rgb(86, 190, 142);
+    background-color: rgb(10, 104, 60);
     display: flex;
     justify-content: space-between;
 }
@@ -60,7 +60,7 @@ table {
 }
 .nav a{
     font-size: 20px;
-    color: black;
+    color: rgb(247, 222, 6);
     text-decoration: none;
     margin: 00px 20px;
 }
@@ -69,16 +69,16 @@ margin-left: 150px;
 }
 .article
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 236, 181);
     display: flex;
-    width: 1000px;
+    
     margin: 00 auto;
     justify-content: center;
     padding: 30px;
     }
 .column-1
 {
-    width: 50%;
+    width: 30%;
     margin: 00  20px;
 }
 .column-1 img
@@ -112,8 +112,7 @@ margin-left: 150px;
  }
 .gallery-div
 {
-    border: 2px solid rgb(189, 189, 17);
-    background-color:rgb(243, 235, 237);
+    background-color:white;
     display:flex;
     flex-wrap: wrap;
     width: 1000px;
@@ -123,7 +122,7 @@ margin-left: 150px;
      }
 .footer
 {
-    background-color: rgb(86, 190, 142);
+    background-color: rgb(10, 104, 60);
    display: flex;
    justify-content: center;
    padding: 40px;
@@ -132,10 +131,23 @@ margin-left: 150px;
  .footer-nav a
  {
 font-size: 20px;
-color: black;
+color: rgb(247, 222, 6);
 text-decoration: none;
 margin: 00 16px;
-
  }
+
+.gallery-section
+{
+background-color: white;
+padding: 30px;
+display: flex;
+justify-content: center;
+}
+.gallery-heading
+{
+    margin-top: 20px;
+font-size: 30px;
+color: black;
+}
 
 
